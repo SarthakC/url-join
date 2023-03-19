@@ -1,0 +1,33 @@
+{
+  "name": "url-join",
+  "version": "1.0.0",
+  "description": "\"url-join\" is a lightweight utility for joining URL segments, providing a simple and reliable way to construct URLs. It handles protocol, domain, and path segments, merging them seamlessly without duplicates or missing slashes. Additionally, it supports skipping empty segments and not mutating the original reference. Use \"url-join\" to make URL building easy and consistent in your Node.js projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SarthakC/url-join.git"
+  },
+  "keywords": [
+    "url",
+    "join",
+    "url-join",
+    "urljoin",
+    "urljoiner",
+    "url-joiner"
+  ],
+  "author": "Sarthak Chowdhary <sarthak.chow@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SarthakC/url-join/issues"
+  },
+  "homepage": "https://github.com/SarthakC/url-join#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.0.5",
+    "typescript": "^5.0.2"
+  }
+}
